@@ -8,7 +8,7 @@ some documents for PuddingRob
 - RTK-GNSS: TBD
 
 ## ソフトウェア構成
-- OS: UbuntuLTS
+- OS: Ubuntu20.04 LTS
 - ROS: noetic
 - SLAM: [ScanMatching using 2d lidar](https://github.com/daruma0309/ndt_slam)
 - PathTracking: TBD
