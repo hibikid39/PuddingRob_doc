@@ -26,3 +26,23 @@ some documents for PuddingRob
 - Tsukuba Challenge: TBD
 
 ## How to get started
+1. sudo ifconfig enp1s0 192.168.0.11
+2. （URG接続）
+3. roslaunch ypspur_ros ypspur_ros.launch
+4. rosrun urg_node urg_node _ip_address:=192.168.0.10
+5. roslaunch realsense2_camera rs_camera.launch
+6. roslaunch ypspur_ros teleop.launch
+7. roslaunch rplidar_ros view_rplidar.launch
+8. roslaunch rplidar_ros rplidar.launch
+
+## Important Command
+### yp_spur起動
+roslaunch ypspur_ros ypspur_ros.launch
+### yp_spurのキーボード操作ノードを起動
+roslaunch ypspur_ros teleop.launch
+### hokuyo LiDAR接続前にIP設定
+sudo ifconfig (e.g. enp1s0) 192.168.0.11
+### LiDAR3台を起動（座標変換済み）
+1. ls -l /dev |grep ttyUSB （USBの番号を確認）
+2. lidar_tf.launchのserial_portの番号を設定
+3. roslaunch rplidar_ros lidar_tf.launch
