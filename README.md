@@ -13,3 +13,10 @@ some documents for PuddingRob
 - SLAM: [ScanMatching using 2d lidar](https://github.com/daruma0309/ndt_slam)
 - PathTracking: TBD
 - Recognition: TBD
+
+### 座標変換
+[static_tf](https://github.com/daruma0309/PuddingRobot_static_tf)
+
+## rosbag
+- National Institute of Technology, Gunma College: TBD
+- Tsukuba Challenge: TBD
