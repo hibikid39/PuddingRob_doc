@@ -1,13 +1,13 @@
 # PuddingRob_doc
 some documents for PuddingRob
 
-## Software
+## Hardware
 - Base: i-Cart mini
 - LiDAR: UTM-30LXEW, RPLIDAR S1(*2)
 - Camera: RealSense Depth Camera D435, Ricoh THETA V
 - RTK-GNSS: TBD
 
-## Hardware
+## Software
 - OS: Ubuntu20.04 LTS
 - ROS: noetic
 - SLAM: [ScanMatching using 2d lidar](https://github.com/daruma0309/ndt_slam)
@@ -20,6 +20,7 @@ some documents for PuddingRob
 - RealSense Depth Camera D435: [SDK](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md), [realsense_ros](https://github.com/IntelRealSense/realsense-ros)
 - 速度指示: [teleop_twist_keyboard](http://wiki.ros.org/teleop_twist_keyboard)
 - 座標変換: [PuddingRobot_static_tf](https://github.com/daruma0309/PuddingRobot_static_tf)
+- データ保存: [rosbag2txt](https://github.com/daruma0309/rosbag2txt)
 
 ## rosbag
 - National Institute of Technology, Gunma College: TBD
