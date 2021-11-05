@@ -26,14 +26,14 @@ some documents for PuddingRob
 - Tsukuba Challenge: TBD
 
 ## How to get started
-1. sudo ifconfig enp1s0 192.168.0.11
+1. ~$ sudo ifconfig enp11s0 192.168.0.11
 2. （URG接続）
-3. roslaunch ypspur_ros ypspur_ros.launch
-4. rosrun urg_node urg_node _ip_address:=192.168.0.10
-5. roslaunch realsense2_camera rs_camera.launch
-6. roslaunch ypspur_ros teleop.launch
-7. roslaunch rplidar_ros view_rplidar.launch
-8. roslaunch rplidar_ros rplidar.launch
+3. ~$sudo chmod 666 /dev/ttyUSB0
+4. ~$ sudo chmod 666 /dev/ttyUSB1
+5. ~$ sudo chmod 666 /dev/ttyACM0
+6. ~/libuvc-theta-sample/gst$ ./gst_loopback --format 2K
+7. ~/catkin_ws$ roslaunch rplidar_ros lidar_camera_tf.launch
+8. ~/catkin_ws$ roslaunch ypspur_ros ypspur_ros.launch
 
 ## Important Command
 ### yp_spur起動
