@@ -22,6 +22,9 @@ some documents for PuddingRob
 - 座標変換: [PuddingRobot_static_tf](https://github.com/daruma0309/PuddingRobot_static_tf)
 - データ保存: [rosbag2txt](https://github.com/daruma0309/rosbag2txt)
 
+### Parameter file
+icart-mini.param
+
 ## rosbag
 ### National Institute of Technology, Gunma College
 - /home/takahashi/rosbag_data/nitgc_big210209.bag
