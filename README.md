@@ -11,8 +11,11 @@ some documents for PuddingRob
 - OS: Ubuntu20.04 LTS
 - ROS: noetic
 - SLAM: [ScanMatching using 2d lidar](https://github.com/daruma0309/ndt_slam)
-- PathTracking: TBD
-- Recognition: TBD
+- PathTracking: /home/takahashi/catkin_ws/src/path_tracking
+- 全方位画像publiser: /home/takahashi/catkin_ws/src/publish_image
+- 点群地図publisher: /home/takahashi/catkin_ws/src/map_publisher
+- 障害物検知: /home/takahashi/catkin_ws/src/detect_obstacle
+- センサデータ記録: /home/takahashi/catkin_ws/src/data_textout
 
 ### Using Package
 - Motor Controller: [YP-Spur](https://github.com/openspur/yp-spur), [ypspur_ros](https://github.com/openspur/ypspur_ros)
