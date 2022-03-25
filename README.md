@@ -35,7 +35,7 @@ some documents for PuddingRob
 - /home/takahashi/rosbag_data/tsukuba2_20211107.bag
 - /home/takahashi/rosbag_data/tsukuba3_20211107.bag
 
-### Point Cloud Map
+## Point Cloud Map
 ### National Institute of Technology, Gunma College
 - /home/takahashi/PCMap/nitgc_hall.pcd
 - /home/takahashi/PCMap/nitgc_small.pcd
@@ -43,6 +43,19 @@ some documents for PuddingRob
 ### Tsukuba Challenge
 - /home/takahashi/PCMap/tsukuba2_20211107.pcd
 - /home/takahashi/PCMap/tsukuba3_20211107.pcd
+
+## Sensor Datas (txt)
+### National Institute of Technology, Gunma College
+- /home/takahashi/senser_data/nitgc_big_20210209
+- /home/takahashi/senser_data/nitgc_hall1_20211111
+- /home/takahashi/senser_data/nitgc_loop1_20211213
+- /home/takahashi/senser_data/nitgc_loop2_20211217
+- /home/takahashi/senser_data/nitgc_loop3_20211220
+- /home/takahashi/senser_data/nitgc_small
+
+### Tsukuba Challenge
+- /home/takahashi/senser_data/tsukuba2_20211107
+- /home/takahashi/senser_data/tsukuba3_20211107
 
 ## How to get started
 1. ~$ sudo ifconfig enp11s0 192.168.0.11
