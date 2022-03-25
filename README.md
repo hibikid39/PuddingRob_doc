@@ -23,8 +23,26 @@ some documents for PuddingRob
 - データ保存: [rosbag2txt](https://github.com/daruma0309/rosbag2txt)
 
 ## rosbag
-- National Institute of Technology, Gunma College: TBD
-- Tsukuba Challenge: TBD
+### National Institute of Technology, Gunma College
+- /home/takahashi/rosbag_data/nitgc_big210209.bag
+- /home/takahashi/rosbag_data/nitgc_hall1_20211111.bag
+- /home/takahashi/rosbag_data/nitgc_loop1_20211213.bag
+- /home/takahashi/rosbag_data/nitgc_loop2_20211217.bag
+- /home/takahashi/rosbag_data/nitgc_small.bag
+
+### Tsukuba Challenge
+- /home/takahashi/rosbag_data/tsukuba1_20211107.bag
+- /home/takahashi/rosbag_data/tsukuba2_20211107.bag
+- /home/takahashi/rosbag_data/tsukuba3_20211107.bag
+
+### Point Cloud Map
+### National Institute of Technology, Gunma College
+- /home/takahashi/PCMap/nitgc_hall.pcd
+- /home/takahashi/PCMap/nitgc_small.pcd
+
+### Tsukuba Challenge
+- /home/takahashi/PCMap/tsukuba2_20211107.pcd
+- /home/takahashi/PCMap/tsukuba3_20211107.pcd
 
 ## How to get started
 1. ~$ sudo ifconfig enp11s0 192.168.0.11
